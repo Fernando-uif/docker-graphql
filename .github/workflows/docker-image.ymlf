@@ -30,6 +30,7 @@ jobs:
          
     - name: Push Docker Image
       run: |
-        docker push ferstxd/docker-graphql:1.0.2 .
+        docker push ferstxd/docker-graphql:1.0.3
+        docker push ferstxd/docker-graphql:latest
         
     
